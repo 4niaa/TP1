@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(236, 236, 236);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    background-color: rgb(66, 136, 132);
+    color: white;
+    padding: 30px 0;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding-bottom: 3px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    width: 80px;
+    height: auto;
+}
+h1 {
+    font-size: 35px;
+    margin: 25px 0;
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-size: 25px;
+    width: 100%;
+    padding: 10px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.reverse-content{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.text p {
+    margin-bottom: 20px;
+    flex: 1;
+}
+.text img, .reverse-content img {
+    flex-shrink: 0;
+    max-width: 390px;
+    width: 100%;
+    height: auto;
+}
+.bouton {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.bouton:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-socials a {
+    margin: 0 10px;
+}
+
+.footer-socials img {
+    width: 30px;
+    height: auto;
+}
+.section {
+    max-width: 2000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
